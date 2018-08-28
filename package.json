@@ -1,0 +1,46 @@
+{
+  "name": "100algorithmschallenge",
+  "version": "1.0.0",
+  "description": "100 Algorithms challenge with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spell2az/100AlgorithmsChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spell2az/100AlgorithmsChallenge/issues"
+  },
+  "homepage": "https://github.com/Spell2az/100AlgorithmsChallenge#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.4.2",
+    "ts-jest": "^23.0.1",
+    "typescript": "^3.0.1"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/unsolvedAlgorithms/"
+    ],
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!@personal)/.*"
+    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
